@@ -1,0 +1,17 @@
+
+> test-pattern@1.0.0 test
+> jest --no-coverage --forceExit
+
+PASS __tests__/CheckoutService.test.js
+  CheckoutService
+    quando o pagamento falha
+      ✓ deve retornar null e não salvar o pedido (2 ms)
+    quando um cliente Premium finaliza a compra
+      ✓ deve aplicar desconto de 10% e enviar e-mail de confirmação (1 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       2 passed, 2 total
+Snapshots:   0 total
+Time:        0.363 s, estimated 1 s
+Ran all test suites.
+Force exiting Jest: Have you considered using `--detectOpenHandles` to detect async operations that kept running after all tests finished?
